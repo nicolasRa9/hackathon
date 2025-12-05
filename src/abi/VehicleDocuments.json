@@ -1,0 +1,50 @@
+[
+  {
+    "inputs": [
+      { "internalType": "uint256", "name": "vehicleId", "type": "uint256" },
+      { "internalType": "bytes32", "name": "docHash", "type": "bytes32" },
+      { "internalType": "uint64", "name": "expiry", "type": "uint64" },
+      { "internalType": "bool", "name": "valid", "type": "bool" }
+    ],
+    "name": "setPermisoCirculacion",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      { "internalType": "uint256", "name": "vehicleId", "type": "uint256" },
+      { "internalType": "bytes32", "name": "docHash", "type": "bytes32" },
+      { "internalType": "uint64", "name": "expiry", "type": "uint64" },
+      { "internalType": "bool", "name": "valid", "type": "bool" }
+    ],
+    "name": "setSeguro",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      { "internalType": "uint256", "name": "vehicleId", "type": "uint256" },
+      { "internalType": "bytes32", "name": "docHash", "type": "bytes32" },
+      { "internalType": "uint64", "name": "expiry", "type": "uint64" },
+      { "internalType": "bool", "name": "valid", "type": "bool" }
+    ],
+    "name": "setRevisionTecnica",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      { "internalType": "uint256", "name": "vehicleId", "type": "uint256" },
+      { "internalType": "bytes32", "name": "docHash", "type": "bytes32" },
+      { "internalType": "uint64", "name": "expiry", "type": "uint64" },
+      { "internalType": "bool", "name": "valid", "type": "bool" }
+    ],
+    "name": "setEmisiones",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
